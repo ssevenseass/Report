@@ -7,16 +7,16 @@ namespace BLL
 {
     public class ManagerEmployee
     {
-        
+
         public Worker employee
         {
-            get;set;
+            get; set;
         }
 
-      
+
         public ManagerEmployee managerEmployee
         {
-            get;set;
+            get; set;
         }
         public List<Worker> employees;
         public List<Task> tasks;
@@ -32,7 +32,7 @@ namespace BLL
 
         public Worker GetDirector(Worker worker, Worker director)
         {
-            if(worker.director != null)
+            if (worker.director != null)
             {
                 worker.director.dependents.Remove(worker);
             }

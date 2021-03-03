@@ -4,35 +4,35 @@ using System.Text;
 
 namespace DAL
 {
-    public class Task : IEntity
+    public class Task
     {
         public string Name
         {
-            get;set;
+            get; set;
         }
         public uint Id
         {
-            get;set;
+            get; set;
         }
         public string Comment
         {
-            get;set;
+            get; set;
         }
         public States stateTask
         {
-            get;set;
+            get; set;
         }
         public DateTime CreationTime
         {
-            get;set;
+            get; set;
         }
         public Worker employee
         {
-            get;set;
+            get; set;
         }
         public DateTime UpDate
         {
-            get;set;
+            get; set;
         }
 
         public Task(string name, uint id, string comment, States stateTask)
@@ -51,7 +51,7 @@ namespace DAL
 
 
         }
-        
+
         public Task(uint id)
         {
             Id = id;

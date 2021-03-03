@@ -2,12 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DAL
+namespace BLL
 {
-    public enum States
+    class Search
     {
-        Open,
-        Active,
-        Resolved
     }
 }

@@ -7,14 +7,14 @@ namespace BLL
 {
     public interface ISearch
     {
-    
+
         public uint Id
         {
-            get;set;
+            get; set;
         }
         public DateTime Data
         {
-            get;set;
+            get; set;
         }
         public DAL.Task Searching();
     }

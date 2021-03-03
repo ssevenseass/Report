@@ -10,23 +10,23 @@ namespace DAL
 
         public string Name
         {
-            get;set;
+            get; set;
         }
 
         public Worker director
         {
-            get;set;
+            get; set;
         }
         public List<Worker> dependents
         {
-            get;set;
+            get; set;
         }
         public uint Id
         {
-            get;set;
+            get; set;
         }
 
-      
+
         public Worker(string name, Worker director, List<Worker> dependents)
         {
             Name = name;

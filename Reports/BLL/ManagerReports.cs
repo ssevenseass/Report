@@ -9,27 +9,27 @@ namespace BLL
     {
         public uint Id
         {
-            get;set;
+            get; set;
         }
         public DateTime Time
         {
-            get;set;
+            get; set;
         }
         public string Comment
         {
-            get;set;
+            get; set;
         }
         public Worker employee
         {
-            get;set;
+            get; set;
         }
         public ManagerReports managerReports
         {
-            get;set;
+            get; set;
         }
         public ManagerReports time
         {
-            get;set;
+            get; set;
         }
         public ManagerReports(ManagerReports managerReports)
         {
@@ -49,12 +49,12 @@ namespace BLL
         {
             return new SprintReport(director, employeers);
         }
-        
+
         public DailyReport FindReport(Worker empl)
         {
             return time.FindReport(empl);
         }
-       
+
 
     }
 }
