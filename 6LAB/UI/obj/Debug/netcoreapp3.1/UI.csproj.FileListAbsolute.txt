@@ -1,0 +1,13 @@
+C:\Users\1\Desktop\6LAB\UI\obj\Debug\netcoreapp3.1\UI.csprojAssemblyReference.cache
+C:\Users\1\Desktop\6LAB\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\6LAB\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfo.cs
+C:\Users\1\Desktop\6LAB\UI\bin\Debug\netcoreapp3.1\UI.deps.json
+C:\Users\1\Desktop\6LAB\UI\bin\Debug\netcoreapp3.1\UI.dll
+C:\Users\1\Desktop\6LAB\UI\bin\Debug\netcoreapp3.1\UI.pdb
+C:\Users\1\Desktop\6LAB\UI\bin\Debug\netcoreapp3.1\BLL.dll
+C:\Users\1\Desktop\6LAB\UI\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\1\Desktop\6LAB\UI\bin\Debug\netcoreapp3.1\BLL.pdb
+C:\Users\1\Desktop\6LAB\UI\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\1\Desktop\6LAB\UI\obj\Debug\netcoreapp3.1\UI.csproj.CopyComplete
+C:\Users\1\Desktop\6LAB\UI\obj\Debug\netcoreapp3.1\UI.dll
+C:\Users\1\Desktop\6LAB\UI\obj\Debug\netcoreapp3.1\UI.pdb
