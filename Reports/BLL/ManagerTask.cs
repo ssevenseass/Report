@@ -10,22 +10,22 @@ namespace BLL
         public List<Task> tasks;
         public ManagerTasks managerTasks
         {
-            get;set;
+            get; set;
         }
         public uint Id
         {
-            get;set;
+            get; set;
         }
         public DateTime CreationTime
         {
-            get;set;
+            get; set;
         }
         public Worker employee
         {
-            get;set;
+            get; set;
         }
         public List<(Worker, Task)> pairs;
-        
+
         public ManagerTasks(ManagerTasks mT)
         {
             this.managerTasks = new ManagerTasks();
@@ -46,7 +46,7 @@ namespace BLL
         }
 
         public void ChangeWorker(Task task, Worker worker)
-        { 
+        {
             task.employee = worker;
         }
         public void AddComment(Task task, string text)
@@ -57,8 +57,8 @@ namespace BLL
         {
             task.stateTask = state;
         }
-        
-        
+
+
         public List<Task> FindTask(List<(Worker, Task)> pairs, Worker director)
         {
             foreach (var w in director.dependents)
@@ -73,26 +73,26 @@ namespace BLL
             }
             return tasks;
         }
-        public ISearch SearchTaskByDate(DateTime data)
+        public ISearch SearchTaskByDate(DateTime data, SearchByDate search)
         {
             return new SearchByDate(data, tasks);
         }
 
-        public ISearch SearchTaskByEmployee(Worker worker)
+        public ISearch SearchTaskByEmployee(SearchByEmployee search, Worker worker)
         {
             return new SearchByEmployee(tasks, worker);
         }
 
-        public ISearch SearchTaskById(uint id)
+        public ISearch SearchTaskById(SearchById search, uint id)
         {
             return new SearchById(tasks, id);
         }
-        public ISearch SearchTaskByChanges( DateTime up)
+        public ISearch SearchTaskByChanges(SearchByChanges search, DateTime up)
         {
             return new SearchByChanges(tasks, up);
         }
 
-       
-    
+
+
     }
 }

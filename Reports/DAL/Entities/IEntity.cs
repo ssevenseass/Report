@@ -8,7 +8,7 @@ namespace DAL
     {
         public uint Id
         {
-            get;set;
+            get; set;
         }
     }
 }

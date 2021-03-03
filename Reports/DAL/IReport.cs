@@ -8,19 +8,19 @@ namespace DAL
     {
         public uint Id
         {
-            get;set;
+            get; set;
         }
         public string Text
         {
-            get;set;
+            get; set;
         }
         public DateTime Data
         {
-            get;set;
+            get; set;
         }
         public string Name
         {
-            get;set;
+            get; set;
         }
     }
 }
